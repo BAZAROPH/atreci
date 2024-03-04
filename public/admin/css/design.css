@@ -1,0 +1,104 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #666;
+    margin: 0;
+}
+
+label {
+    color: rgba(43, 61, 81, 0.8);
+    text-transform: none;
+}
+
+.my-champ {
+    display: block !important;
+    border: dotted 1px #f88e15;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 7px;
+    margin-bottom: -1px;
+}
+
+.md-input-wrapper textarea {
+    border-radius: 0;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: inset 0 -1px 0 transparent;
+    box-shadow: inset 0 -1px 0 transparent;
+    box-sizing: border-box;
+    padding: 12px 4px;
+    background: 0 0;
+    width: 100%;
+    display: block;
+    height: 150px;
+    max-height: 150px;
+}
+
+#code {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+#debut {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+#fin {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.btn-validation {
+    margin-top: 30px;
+    position: fixed;
+    width: 100%;
+    bottom: 8px;
+    background: #fefefe;
+    padding: 10px;
+}
+
+.sidebar-menu .treeview-menu>li.active>a {
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.sidebar-menu .treeview-menu>li.active {
+    background: #dddddd;
+}
+
+.box-image {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    margin-left: 10px;
+    display: inline-block;
+    background: #000;
+}
+
+.box-image img {
+    width: 130px;
+}
+
+* a {
+    font-size: inherit;
+}
+
+
+table.dataTable.nowrap th, table.dataTable.nowrap td {
+    white-space:normal;
+}
